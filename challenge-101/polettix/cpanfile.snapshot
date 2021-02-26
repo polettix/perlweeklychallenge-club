@@ -1,0 +1,16 @@
+# carton snapshot format: version 1.0
+DISTRIBUTIONS
+  Math-Polygon-1.10
+    pathname: M/MA/MARKOV/Math-Polygon-1.10.tar.gz
+    provides:
+      Math::Polygon 1.10
+      Math::Polygon::Calc 1.10
+      Math::Polygon::Clip 1.10
+      Math::Polygon::Convex 1.10
+      Math::Polygon::Surface 1.10
+      Math::Polygon::Transform 1.10
+    requirements:
+      ExtUtils::MakeMaker 0
+      Math::Trig 0
+      Scalar::Util 1.13
+      Test::More 0.47
